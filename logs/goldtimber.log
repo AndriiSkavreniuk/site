@@ -1,0 +1,103 @@
+2020-07-22 15:04:22,988 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-22 15:04:28,460 ERROR: Exception on /information [GET] [in /home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/andrii/PycharmProjects/site/app/routes.py", line 16, in information
+    return render_template('inform_pag.html', title='Information')
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: inform_pag.html
+2020-07-26 18:30:16,482 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-26 18:32:14,754 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-27 13:19:43,273 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-27 13:21:17,679 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-27 13:25:55,930 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-27 13:30:21,665 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-27 13:32:58,739 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-28 00:46:38,333 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 00:47:16,408 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 00:50:13,886 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 00:59:42,593 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 01:00:41,968 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 01:02:02,493 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 01:04:09,947 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 12:52:15,997 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 13:22:53,805 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 13:26:41,676 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 13:30:30,117 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 13:33:10,473 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 13:33:15,534 ERROR: Exception on /information [GET] [in /home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/andrii/PycharmProjects/site/app/routes.py", line 16, in information
+    return render_template('inform_page.html', title='Information')
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/andrii/PycharmProjects/site/venv/lib/python3.8/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/home/andrii/PycharmProjects/site/app/templates/inform_page.html", line 19, in template
+    {% extends 'bootstrap/carusel.css' %}
+jinja2.exceptions.TemplateAssertionError: cannot use extend from a non top-level scope
+2020-07-29 13:34:04,428 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:07:39,960 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:08:28,805 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:14:10,041 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:16:07,083 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:28:00,452 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:30:18,241 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:33:38,808 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:51:03,617 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:52:45,376 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:53:09,954 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:53:32,126 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:54:06,399 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 14:56:05,045 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 15:03:42,761 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 15:04:25,130 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]
+2020-07-29 18:19:34,152 INFO: Gold Timber startup [in /home/andrii/PycharmProjects/site/app/__init__.py:38]

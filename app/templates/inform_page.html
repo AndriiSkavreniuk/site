@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+<body>
+{% block content %}
+    <div class="bd-example" align="center">
+        <h1>About as:</h1>
+        <h4>Bla bla bla bla bla bla bla</h4>
+        <h4>Bla bla bla bla bla bla bla</h4>
+        <h4>Bla bla bla bla bla bla bla</h4>
+        <h4>Bla bla bla bla bla bla bla</h4>
+        <h4>Bla bla bla bla bla bla bla</h4>
+        <h4>Bla bla bla bla bla bla bla</h4>
+        <h4>Bla bla bla bla bla bla bla</h4>
+        <h4>Bla bla bla bla bla bla bla</h4>
+
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/carousel.css') }}">
+        <div class="slider">
+
+            <a href="#slide-1">1</a>
+            <a href="#slide-2">2</a>
+            <a href="#slide-3">3</a>
+            <a href="#slide-4">4</a>
+
+            <div class="slides">
+                <div id="slide-1">
+                    <img src="{{ url_for('static', filename='images/image_1.jpg') }}" align="middle">
+                </div>
+                <div id="slide-2">
+                    <img src="{{ url_for('static', filename='images/image_2.jpeg') }}" align="middle">
+                </div>
+                <div id="slide-3">
+                    <img src="{{ url_for('static', filename='images/image_3.jpg') }}" align="middle">
+                </div>
+                <div id="slide-4">
+                    <img src="{{ url_for('static', filename='images/image_4.jpg') }}" align="middle">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
